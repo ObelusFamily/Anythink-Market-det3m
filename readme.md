@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone repository https://github.com/ObelusFamily/Anythink-Market-det3m
+2. Install Docker.
+3. Verify docker is ready by running the following commands in your terminal: `docker -v` and `docker-compose -v`.
+4. To load Anythink's backend and frontend, run `docker-compose up` from the project root directory
+5. Check backend is working by opening your browser to http://localhost:3000/api/ping
+6. Check frontend is working by creating a new user on http://localhost:3001/register
